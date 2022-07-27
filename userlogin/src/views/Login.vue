@@ -6,7 +6,7 @@
         <v-text-field
           v-model="email"
           :error-messages="emailErrors"
-          :counter="30"
+          :counter="40"
           label="E-mail"
           required
           @input="$v.email.$touch()"
